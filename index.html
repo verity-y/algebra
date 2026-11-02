@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algebra - Play Pac-Man</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #000000;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+        header {
+            text-align: center;
+            padding: 20px 10px 10px 10px;
+            width: 100%;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.2rem;
+            color: #fffe00;
+            text-shadow: 0 0 8px #fffe00;
+        }
+        p {
+            margin: 5px 0 15px 0;
+            color: #2121ff;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+        .game-container {
+            width: 100%;
+            max-width: 450px;
+            height: 550px;
+            padding: 0 15px;
+            box-sizing: border-box;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: 4px solid #2121ff;
+            border-radius: 8px;
+            background-color: #000000;
+            box-shadow: 0 0 15px #2121ff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Algebra Games</h1>
+        <p>CHOMP THE DOTS & EVADE THE GHOSTS!</p>
+    </header>
+
+    <div class="game-container">
+        <!-- Embedded open-source Pacman game -->
+        <iframe src="https://pacman.live" title="Pacman Game" scrolling="no"></iframe>
+    </div>
+
+</body>
+</html>
